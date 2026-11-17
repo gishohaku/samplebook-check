@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: contact-in-preface-passes
+expected_outcome: |
+  連絡先は奥付になく、まえがきにある。連絡先は ✅ とし、奥付にも書くことをすすめるメッセージを添える。奥付全体は「通過」とする。
+context:
+  scaffold_script: place-files.sh

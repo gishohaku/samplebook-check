@@ -1,0 +1,19 @@
+name: test
+on:
+  push:
+  pull_request:
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install poppler (pdftotext, pdftoppm, pdfimages) and Japanese mapping data
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils poppler-data
+      - run: pip install -r requirements.txt
+      - name: Regression tests
+        run: python tests/run_tests.py
+      - name: Build the .skill package
+        run: ./tools/build.sh

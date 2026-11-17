@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+dist/
+.DS_Store
+# claude plugin eval の実行結果
+skills/*/evals/results/

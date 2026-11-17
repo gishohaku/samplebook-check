@@ -1,0 +1,33 @@
+# 使い捨て（捨てアド）メールサービスの代表的なドメイン。
+# 技書博は「捨てアドは不可」としているため、一致したら要修正として扱う。
+# 網羅的なリストではない。一致しなくても、明らかに使い捨てに見えるものは要確認とする。
+mailinator.com
+guerrillamail.com
+guerrillamail.net
+sharklasers.com
+grr.la
+10minutemail.com
+10minutemail.net
+temp-mail.org
+tempmail.com
+yopmail.com
+yopmail.net
+trashmail.com
+getnada.com
+maildrop.cc
+dispostable.com
+throwawaymail.com
+fakeinbox.com
+mintemail.com
+mohmal.com
+emailondeck.com
+tempail.com
+mail.tm
+1secmail.com
+mytemp.email
+moakt.com
+discard.email
+mailnesia.com
+spamgourmet.com
+burnermail.io
+tempr.email

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: colophon-missing-items
+expected_outcome: |
+  奥付が「要修正」と判定される。書名がない、印刷所名がない、連絡先が使い捨てメール、著者名がテンプレートの初期値のまま、発行日に日がない、を指摘し、具体的な修正案を示す。
+context:
+  scaffold_script: place-files.sh

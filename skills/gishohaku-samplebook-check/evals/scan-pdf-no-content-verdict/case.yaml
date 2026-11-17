@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: scan-pdf-no-content-verdict
+expected_outcome: |
+  全ページが画像のPDF。奥付はページを画像として読んで判定する。内容チェックは、テキストを取り出せないのでできないと伝え、「問題は見当たらない」とは書かない。
+context:
+  scaffold_script: place-files.sh
