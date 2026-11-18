@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: colophon-pass-asks-content-check
+expected_outcome: |
+  奥付の6項目がすべて ✅ で「通過」と判定され、そのあとで内容チェックをするかどうかをユーザーに尋ねる。内容チェックは、尋ねる前には始めない。
+context:
+  scaffold_script: place-files.sh

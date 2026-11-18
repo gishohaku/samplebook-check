@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: dualuse-missing-disclaimer-required
+expected_outcome: |
+  OSINTの本で、まえがきに「技術解説のみが目的」「悪用は拒否する」という文言がない。内容チェックで ❌ とし、まえがきに必ず追記するよう求め、文例を示す。
+context:
+  scaffold_script: place-files.sh

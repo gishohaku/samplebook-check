@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: risky-toc-strongly-recommends
+expected_outcome: |
+  奥付は通過する。一次レビューで、目次の飲酒・性的な見出しと、読者を成人に限る記述を根拠に、内容チェックを強く推奨する。
+context:
+  scaffold_script: place-files.sh
