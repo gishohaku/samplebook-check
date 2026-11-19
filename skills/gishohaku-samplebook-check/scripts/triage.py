@@ -127,7 +127,7 @@ def main() -> None:
 
     front_back = "\n".join(pages[i] for name in ("cover", "preface", "afterword", "toc") for i in sec[name])
     # 成人に限る記述は、文脈で意味が変わる。
-    #   注意書きの一部（悪用の禁止などと並んでいる） → 危険性のある技術の本に認められた例外。マイナスの信号ではない
+    #   注意書きの一部（悪用の禁止などと並んでいる） → 悪用防止のための記載（ゾーニングではない）。マイナスの信号ではない
     #   それ以外（対象読者の指定など）               → 全年齢の原則に反する可能性がある
     adult = []
     for m in ADULT_TARGET.finditer(front_back):
